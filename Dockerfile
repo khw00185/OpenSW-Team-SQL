@@ -5,4 +5,4 @@ ENV MYSQL_DATABASE=BBSS
 ENV MYSQL_USER=username
 ENV MYSQL_PASSWORD=password
 
-COPY BBSS.sql /docker-entrypoint-initdb.d/
+COPY BBS.sql /docker-entrypoint-initdb.d/
