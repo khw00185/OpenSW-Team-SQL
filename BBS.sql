@@ -1,4 +1,4 @@
-create database BBSS;
+CREATE DATABASE IF NOT EXISTS BBSS;
 use BBSS;
 
 create table USER(
