@@ -13,8 +13,6 @@ primary key (userID)
 INSERT INTO USER value('gildong', '123456', '홍길동', '남자', 'gildong@naver.com');
 INSERT INTO USER value('gilsoon', '654321', '홍길순', '여자', 'gilsoon@naver.com');
 
-select * from user;
-
 create table BBS (
 bbsID INT,
 bbsTitle VARCHAR(50),
